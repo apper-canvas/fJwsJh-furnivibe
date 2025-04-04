@@ -115,7 +115,7 @@ const testimonials = [
     customerName: "Emily Rodriguez",
     customerLocation: "Austin, TX",
     rating: 5,
-    comment: "I've purchased multiple pieces from Furnivibe and each one has been perfect. Their attention to detail is amazing.",
+    comment: "I've purchased multiple pieces from Your Furniture Shop and each one has been perfect. Their attention to detail is amazing.",
     productPurchased: "Bedroom Set",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
   }
@@ -173,7 +173,7 @@ const Home = () => {
                 className="text-2xl font-heading font-bold text-primary dark:text-primary-light"
                 whileHover={{ scale: 1.05 }}
               >
-                Furnivibe
+                Your Furniture Shop
               </motion.a>
               
               <nav className="hidden md:flex ml-10 space-x-8">
@@ -231,7 +231,7 @@ const Home = () => {
             transition={{ type: "spring", damping: 25 }}
           >
             <div className="flex justify-between items-center mb-8">
-              <span className="text-2xl font-heading font-bold text-primary dark:text-primary-light">Furnivibe</span>
+              <span className="text-2xl font-heading font-bold text-primary dark:text-primary-light">Your Furniture Shop</span>
               <button 
                 onClick={() => setMobileMenuOpen(false)}
                 className="p-2"
@@ -655,7 +655,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-heading font-bold text-white mb-4">Furnivibe</h3>
+              <h3 className="text-xl font-heading font-bold text-white mb-4">Your Furniture Shop</h3>
               <p className="mb-6">Transforming spaces with timeless elegance and modern design since 2010.</p>
               <div className="flex space-x-4">
                 <a href="#" className="text-surface-400 hover:text-white transition-colors">
@@ -705,7 +705,7 @@ const Home = () => {
           </div>
           
           <div className="border-t border-surface-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-surface-500 text-sm">© 2023 Furnivibe. All rights reserved.</p>
+            <p className="text-surface-500 text-sm">© 2023 Your Furniture Shop. All rights reserved.</p>
             <div className="mt-4 md:mt-0 flex space-x-6">
               <a href="#" className="text-surface-500 hover:text-surface-300 text-sm">Privacy Policy</a>
               <a href="#" className="text-surface-500 hover:text-surface-300 text-sm">Terms of Service</a>
